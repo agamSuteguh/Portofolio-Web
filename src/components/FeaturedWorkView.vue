@@ -9,6 +9,13 @@
 </svg>
 </button></router-link>
 <br></div>
+<div class="mt-20 text-center border-b pb-12">
+        <h1 class="text-4xl font-medium text-gray-700">
+          Project <span class="font-light text-gray-500"></span>
+        </h1>
+        <p class="font-light text-gray-600 mt-3">Indonesia, Bogor</p>
+        <p class="mt-8 text-gray-500">Web Developer</p>
+      </div>
 <div class="ml-12 mt-6">
 <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
     <li class="mb-10 ml-6">            

@@ -85,7 +85,7 @@
           Agam Suteguh <span class="font-light text-gray-500"></span>
         </h1>
         <p class="font-light text-gray-600 mt-3">Indonesia, Bogor</p>
-        <p class="mt-8 text-gray-500">Web Developer</p>
+
       </div>
 
       <div class="mt-12 flex flex-col justify-center">
