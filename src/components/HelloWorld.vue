@@ -59,14 +59,9 @@
       </div>
       <div class="mt-12 flex flex-col justify-center">
         <p class="text-gray-600 text-center font-light lg:px-16">
-          An artist of considerable range, Ryan — the name taken by
-          Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and
-          records all of his own music, giving it a warm, intimate feel with a
-          solid groove structure. An artist of considerable range.
+          My name is Agam Suteguh, and I live in Bogor, Indonesia. I am a web developer who primarily uses the MEVN stack. My dream is to become a full-stack web developer and game developer. I am eager to work with all of you. Thank you for visiting this website, and have a great day!
         </p>
-        <button class="text-indigo-500 py-2 px-4 font-medium mt-4">
-          Show more
-        </button>
+      
       </div>
     </div>
   </div>
