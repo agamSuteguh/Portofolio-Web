@@ -38,8 +38,9 @@
           <a href=""><button
             class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
           >
-            Dark Mode
-          </button></a>
+            Featured Work
+
+          </button><br></a>
           <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzupper@gmail.com"><button
             class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
           >
@@ -57,6 +58,7 @@
         </p>
 
       </div>
+      
       <div class="mt-12 flex flex-col justify-center">
         <p class="text-gray-600 text-center font-light lg:px-16">
           My name is Agam Suteguh, and I live in Bogor, Indonesia. I am a web developer who primarily uses the MEVN stack. My dream is to become a full-stack web developer and game developer. I am eager to work with all of you. Thank you for visiting this website, and have a great day!
@@ -67,3 +69,23 @@
   </div>
 
 </template>
+<style scoped>
+h1{
+
+  color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+
+}
+p{
+  font-family: monospace;
+  color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+</style>
