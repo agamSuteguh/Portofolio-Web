@@ -35,23 +35,23 @@
         <div
           class="space-x-8 flex justify-between mt-32 md:mt-0 md:justify-center"
         >
-          <button
+          <a href=""><button
             class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
           >
-            Connect
-          </button>
-          <button
+            Dark Mode
+          </button></a>
+          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzupper@gmail.com"><button
             class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
           >
-            Message
-          </button>
+           Message Me
+          </button></a>
         </div>
       </div>
       <div class="mt-20 text-center border-b pb-12">
         <h1 class="text-4xl font-medium text-gray-700">
           Agam Suteguh <span class="font-light text-gray-500"></span>
         </h1>
-        <p class="font-light text-gray-600 mt-3">Klapanunggal, Bogor</p>
+        <p class="font-light text-gray-600 mt-3">Indonesia, Bogor</p>
         <p class="mt-8 text-gray-500">
           Web Developer
         </p>
