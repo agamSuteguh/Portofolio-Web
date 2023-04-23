@@ -35,12 +35,12 @@
         <div
           class="space-x-8 flex justify-between mt-32 md:mt-0 md:justify-center"
         >
-          <a href=""><button
+          <router-link     :to="{ name: 'featuredwork'}"><button
             class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
           >
             Featured Work
 
-          </button><br></a>
+          </button><br></router-link>
           <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzupper@gmail.com"><button
             class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
           >
