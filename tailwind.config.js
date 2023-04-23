@@ -6,7 +6,13 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        navy: '#3C486B', // menambahkan warna 
+        ylw:'#F9D949',
+        rd:'#F45050'
+      },
+    },
   },
   plugins: [],
 }
