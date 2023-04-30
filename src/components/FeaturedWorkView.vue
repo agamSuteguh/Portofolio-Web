@@ -13,7 +13,7 @@
         <h1 class="text-4xl font-medium text-gray-700">
           Project Website <span class="font-light text-gray-500"></span>
         </h1>
-        <p class="font-light text-gray-600 mt-3">Indonesia, Bogor</p>
+        <p class="font-light text-gray-600 mt-3">Website App</p>
       </div>
 <div class="ml-12 mt-6">
 <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
