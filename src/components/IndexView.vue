@@ -1,4 +1,5 @@
 <template>
+  <div class="body">
   <div class="bg-gry p-16">
     <div class="p-8 shadow mt-24">
       <div class="grid grid-cols-1 sm:grid-cols md:grid-cols-3">
@@ -62,12 +63,12 @@
         </div>
         <div class="space-x-8 flex  :flex-row 2xl:flex-row justify-between mt-28 md:mt-0 md:justify-center">
           <router-link :to="{ name: 'featuredwork' }">
-            <button class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
+            <button class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5 text-sm sm:text-md">
               My Resume
             </button>
           </router-link>
-          <a  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzupper@gmail.com">
-            <button class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
+          <a  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzuper@gmail.com">
+            <button class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5 text-sm sm:text-md">
               Message Me
             </button>
           </a>
@@ -127,17 +128,18 @@ Note that this project is not yet complete, as I plan to add an online payment f
 
 
 
-</div>
+</div></div>
 <footer class="bg-blue-400 text-center mt-20">
-    <div class="p-2 text-center text-neutral-200 ">
-      © 2023 Copyright:
-      <a
-        class="text-neutral-100"
-        href="https://github.com/agamsuteguh"
-        >Agam Suteguh</a
-      >
-    </div>
-  </footer>
+  <div class="p-2 text-center text-neutral-200 ">
+    © 2023 Copyright:
+    <a
+      class="text-neutral-100"
+      href="https://github.com/agamsuteguh"
+      >Agam Suteguh</a
+    >
+  </div>
+</footer>
+
 </template>
 
 
@@ -154,4 +156,25 @@ p {
   letter-spacing: 0.05em;
   text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
+.body {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation-name: fadeInFromLeft;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 </style>
