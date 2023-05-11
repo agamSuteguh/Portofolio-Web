@@ -1,12 +1,12 @@
 <template>
   <div class="bg-gry p-16">
     <div class="p-8 shadow mt-24">
-      <div class="grid grid-cols-1 md:grid-cols-3">
+      <div class="grid grid-cols-1 sm:grid-cols md:grid-cols-3">
         <div
           class="grid grid-cols-3 text-center order-last md:order-first mt-20 md:mt-0"
         >
-          <a href="https://github.com/agamsuteguh">
-            <div>
+          <a class="mr-6" href="https://github.com/agamsuteguh">
+            <div >
               <svg
                 class="mx-auto bg-navy hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@
             </div></a
           >
           <a href="https://www.instagram.com/ag32111/">
-            <div>
+            <div >
               <img
                 class="mx-auto hover:bg-gray-200 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
                 src="https://www.svgrepo.com/show/343562/instagram-social-media-network-communication-interaction-connection.svg"
@@ -35,8 +35,8 @@
             </div></a
           >
 
-          <a href="https://www.linkedin.com/in/agam-suteguh/">
-            <div>
+          <a class="ml-6" href="https://www.linkedin.com/in/agam-suteguh/">
+            <div >
               <img
               class="mx-auto hover:bg-gray-200 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
                 src="https://www.svgrepo.com/show/448234/linkedin.svg"
@@ -60,28 +60,24 @@
             />
           </div>
         </div>
-        <div
-          class="space-x-8 flex justify-between mt-32 md:mt-0 md:justify-center"
-        >
-          <router-link :to="{ name: 'featuredwork' }"
-            ><button
-              class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
-            >
-              Featured Work</button
-            ><br
-          /></router-link>
-          <a
-            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzupper@gmail.com"
-            ><button
-              class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
-            >
+        <div class="space-x-8 flex  :flex-row 2xl:flex-row justify-between mt-28 md:mt-0 md:justify-center">
+          <router-link :to="{ name: 'featuredwork' }">
+            <button class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
+              My Resume
+            </button>
+          </router-link>
+          <a  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=agamzupper@gmail.com">
+            <button class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
               Message Me
-            </button></a
-          >
+            </button>
+          </a>
         </div>
+        
+
       </div>
       <div class="mt-20 text-center border-b pb-12">
-        <h1 class="text-4xl font-medium text-gray-700">
+        <h1 class="text-4xl font-medium text-gray-700 sm:text-1xl md:text-2xl lg:text-4xl xl:text-4xl">
+
           Agam Suteguh <span class="font-light text-gray-500"></span>
         </h1>
         <p class="font-light text-gray-600 mt-3">Indonesia, Bogor</p>
@@ -132,7 +128,20 @@ Note that this project is not yet complete, as I plan to add an online payment f
 
 
 </div>
+<footer class="bg-blue-400 text-center mt-20">
+    <div class="p-2 text-center text-neutral-200 ">
+      © 2023 Copyright:
+      <a
+        class="text-neutral-100"
+        href="https://github.com/agamsuteguh"
+        >Agam Suteguh</a
+      >
+    </div>
+  </footer>
 </template>
+
+
+
 <style scoped>
 h1 {
   color: #2c2c2c;

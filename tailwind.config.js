@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         navy: '#3C486B', // menambahkan warna 
         ylw:'#F9D949',
-        rd:'#F45050'
+        rd:'#F45050',
+        bla:'#4457a2'        
       },
     },
   },
