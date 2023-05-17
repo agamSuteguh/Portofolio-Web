@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <hr>
+
     <div id="konten2" class="KONTEN2 ml-20 mt-60 mb-20">
       <div class="flex justify-between">
         <div class=" sm:text-sm md:text-2xl lg:text-6xl 	mt-20">
