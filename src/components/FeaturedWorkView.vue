@@ -57,9 +57,7 @@
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">I am creating a front-end application
                 using Vue.js and learning <br>how to handle REST APIs using Vuex.
               </p>
-              <a href="#"
-                class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-ba border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Detail
-                Project</a>
+             
             </li>
             <li class="mb-10 ml-6">
               <span
@@ -76,7 +74,7 @@
         </div>
         <div class="mt-20">
           <P class="text-bla text-2xl">Skills</P>
-          <ul class="max-w-md space-y-1 text-gray-900 list-disc list-inside dark:text-gray-400">
+          <ul class="max-w-md space-y-1 text-gray-900 list-disc list-inside ">
             <li>
               Vue JS
             </li>
