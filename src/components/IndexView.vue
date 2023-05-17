@@ -98,14 +98,14 @@
   <div class="ml-2">
     
 <br></div>
-<div class="mt-72 text-center border-b pb-12">
+<div class="mt-72 text-center border-b pb-12 ">
         <h1 class="text-4xl font-medium text-gray-700">
           Project <span class="font-light text-gray-500"></span>
         </h1>
         <p class="font-light text-gray-600 mt-3">Indonesia, Bogor</p>
       </div>
-<div class="ml-12 mt-6">
-<ol class="relative border-l border-gray-200 dark:border-gray-700">                  
+<div class="ml-12 mt-6 mb-80">
+<ol class="relative border-l border-gray-200 dark:border-gray-700 ">                  
     <li class="mb-10 ml-6">            
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
@@ -120,7 +120,7 @@ Note that this project is not yet complete, as I plan to add an online payment f
   <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"></path>
 </svg>	&nbsp;Go To Project</a>
     </li>
-    <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+    <span class="absolute flex items-center  justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
    
@@ -129,20 +129,23 @@ Note that this project is not yet complete, as I plan to add an online payment f
 
 
 </div></div>
-<footer class="bg-blue-400 text-center mt-20">
-  <div class="p-2 text-center text-neutral-200 ">
-    © 2023 Copyright:
-    <a
-      class="text-neutral-100"
-      href="https://github.com/agamsuteguh"
-      >Agam Suteguh</a
-    >
-  </div>
-</footer>
+<FooterView />
+
+
 
 </template>
 
+<script >
+import FooterView from "@/components/FooterView.vue";
 
+export default {
+  name: 'App',
+  components: {
+    FooterView
+    
+  }
+}
+</script>
 
 <style scoped>
 h1 {

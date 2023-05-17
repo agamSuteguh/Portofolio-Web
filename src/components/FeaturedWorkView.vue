@@ -72,7 +72,7 @@
             </li>
           </ol>
         </div>
-        <div class="mt-20">
+        <div class="mt-20 mb-80 mr-80">
           <P class="text-bla text-2xl">Skills</P>
           <ul class="max-w-md space-y-1 text-gray-900 list-disc list-inside ">
             <li>
@@ -93,9 +93,20 @@
       </div>
     </div>
   </div>
+  <FooterView/>
 </template>
 
+<script >
+import FooterView from "@/components/FooterView.vue";
 
+export default {
+  name: 'App',
+  components: {
+    FooterView
+    
+  }
+}
+</script>
 
 <style scoped>
 h1 {
